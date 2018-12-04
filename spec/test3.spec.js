@@ -1,4 +1,4 @@
-describe('function squareNumbers', () => {
+describe('function pythagoreanTriple', () => {
   const pythagoreanTriple = (n) => {
     let arr = [];
     for (let a = 1; a < n; a += 1) {
@@ -12,7 +12,7 @@ describe('function squareNumbers', () => {
     }
     return arr;
   };
-  it('should return the amount of numbers,which is square of even number', () => {
+  it('should return all pythagorean triple to input number', () => {
     expect(pythagoreanTriple(15)).toEqual([[3, 4, 5], [5, 12, 13], [6, 8, 10]]);
   });
 });
